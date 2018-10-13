@@ -1,7 +1,7 @@
 ---
 applications:
-- name: pcfdemo
-  memory: 512M 
+- name: best-retailer
+  memory: 1G
   instances: 1
-  host: pcfdemo-yourname
+  host: best-retailer-kirkland
   path: ./target/pcfdemo.war
